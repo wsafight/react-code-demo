@@ -7368,10 +7368,10 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-rc-css-animate@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rc-css-animate/-/rc-css-animate-0.0.2.tgz#ff83dc6bda8605b9ed996be33d478ddfd8d40631"
-  integrity sha512-tq+G7ULiL6JGUTmgJ55ANqNRF55gnhukr9xwPFpgT5r4FzhlxshWl34SNxen2DKlV9JfOrswt5nLG6GRsN0rVQ==
+rc-css-animate@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/rc-css-animate/-/rc-css-animate-0.0.4.tgz#f3e4ece6aefacd7e52d1db790d218fb884f4e25e"
+  integrity sha512-8h7o/3xHI0Fb+/AV8DqnxxMaqsQ8raG21jA6qp63rZMVk1tTNNd72VXyIqI8vHpK47oGmZ+y6aY5HFtsi9ycrw==
 
 react-app-polyfill@^3.0.0:
   version "3.0.0"

@@ -1,6 +1,8 @@
 import React, { createRef, useEffect } from 'react';
-import { CompatibleRAnimate } from 'rc-css-animate'
+import { CompatibleRAnimate, setPrefixCls } from 'rc-css-animate'
 import 'animate.css'
+
+setPrefixCls('animate__')
 
 function block (props) {
     const { className, children } = props;
@@ -28,7 +30,7 @@ function App() {
             <CompatibleRAnimate
                 tag={block}
                 ref={ref}
-                clsPrefix='animate__'
+                // clsPrefix='animate__'
                 // cls='animated flipInY'
                 cls='animated backInDown infinite'
                 initialVisible={false}
