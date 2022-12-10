@@ -2,6 +2,17 @@ import React, { createRef, useEffect } from 'react';
 import { CompatibleRAnimate } from 'rc-css-animate'
 import 'animate.css'
 
+function block (props) {
+    const { className, children } = props;
+
+    return <div className={className} style={{ 
+        background: 'red',
+        padding: 100
+     }}>
+        {children}
+    </div>
+}
+
 function App() {
 
     const ref = createRef();
@@ -15,12 +26,12 @@ function App() {
     return (
         <div className="App">
             <CompatibleRAnimate
-                tag='div'
+                tag={block}
                 ref={ref}
                 clsPrefix='animate__'
-                cls='animated bounce infinite'
-                // cls='animated backInDown infinite'
-                initialVisible={true}
+                // cls='animated flipInY'
+                cls='animated backInDown infinite'
+                initialVisible={false}
                 getVisibleWhenAnimateEnd={(cls) => {
                     if (cls.includes('Out')) {
                         return false
