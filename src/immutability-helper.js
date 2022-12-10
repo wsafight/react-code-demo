@@ -156,7 +156,6 @@ function App2() {
   );
 }
 
-
 function App() {
   const [user, setUser] = useState({
     name: 'wsa',
@@ -247,5 +246,8 @@ function App() {
       </Profiler>
     </div>
   );
+}
+export {
+  App2
 }
 export default App;

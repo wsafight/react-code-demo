@@ -2453,6 +2453,11 @@ ajv@^8.0.0, ajv@^8.6.0, ajv@^8.8.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+animate.css@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
+  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
+
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.1:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
@@ -7362,6 +7367,11 @@ raw-body@2.5.1:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+rc-css-animate@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/rc-css-animate/-/rc-css-animate-0.0.2.tgz#ff83dc6bda8605b9ed996be33d478ddfd8d40631"
+  integrity sha512-tq+G7ULiL6JGUTmgJ55ANqNRF55gnhukr9xwPFpgT5r4FzhlxshWl34SNxen2DKlV9JfOrswt5nLG6GRsN0rVQ==
 
 react-app-polyfill@^3.0.0:
   version "3.0.0"
