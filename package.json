@@ -12,7 +12,8 @@
     "web-vitals": "2.1.0",
     "immutability-helper": "3.1.1",
     "rc-css-animate": "0.0.4",
-    "animate.css": "4.1.1"
+    "animate.css": "4.1.1",
+    "try-run-js": "0.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

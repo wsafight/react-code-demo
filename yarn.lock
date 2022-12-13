@@ -8466,6 +8466,11 @@ tr46@^2.1.0:
   dependencies:
     punycode "^2.1.1"
 
+try-run-js@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/try-run-js/-/try-run-js-0.0.4.tgz#33c5cd876e4e2e33e636e8c75824ca9a7cc4baa2"
+  integrity sha512-npZr34Ljx4WooFoeMAVxj9RUiEetKx6U0+9y01v9edAowhVrO6NyNMQcYmzU/ZaoMWexODUD8sWUCqlmZE62Zw==
+
 tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
