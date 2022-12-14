@@ -11,6 +11,11 @@ function App() {
     const ref = createRef(null);
     const [visible, setVisible] = useState(false);
 
+    const getData = async () => {
+        const [ error ] = await tryRun(Promise.reject(12))
+        console.log(error)
+    }
+
     useEffect(() => {
         setTimeout(() => {
             setVisible(true)
@@ -26,6 +31,7 @@ function App() {
             console.log(typeof res)
             console.log(res)
         })
+        getData()
     }, [])
 
     return (
