@@ -32,6 +32,28 @@ function App() {
             console.log(res)
         })
         getData()
+
+      
+        let index = 1
+        tryRun(() => {
+            return Promise.race([new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve()
+                }, 1000000)
+            }), new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    console.log(`error${index++}`)
+                    reject('error')
+                }, 1000)
+            })])
+        }, {
+            retryTime: 3,
+            timeout: 5000
+        }).then(res => {
+            console.log(typeof res)
+            console.log(res)
+        })
+
     }, [])
 
     return (
