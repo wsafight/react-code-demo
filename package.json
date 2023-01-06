@@ -14,7 +14,8 @@
     "rc-css-animate": "0.0.4",
     "animate.css": "4.1.1",
     "try-run-js": "0.0.7",
-    "react-fittext": "1.0.0"
+    "react-fittext": "1.0.0",
+    "clipboard-helper": "0.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
