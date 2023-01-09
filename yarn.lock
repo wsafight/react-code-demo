@@ -3060,10 +3060,10 @@ clean-css@^5.2.2:
   dependencies:
     source-map "~0.6.0"
 
-clipboard-helper@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/clipboard-helper/-/clipboard-helper-0.0.4.tgz#f4ce56f5b6773c44e842e0cef84340233a201b2c"
-  integrity sha512-Cq3KCMmTaUcd6AYQEdHoRoBnDQZl6SSgQ7tHarhXJWsdS+rnNE9m+asgkyra86Il4losPzGOIQF9LWEQ93QVEA==
+clipboard-helper@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/clipboard-helper/-/clipboard-helper-0.0.6.tgz#60c347de430b9e5f89407502c74e45655cb4447d"
+  integrity sha512-WEruJCYOao1aQsCu0e22bXMOSHlbpq1+5DFS4vzhaOuExhZgPrAuLgVOttnT/WLECZA67lJe69aNM7EkA1FqPQ==
   dependencies:
     clipboard "2.0.11"
 
